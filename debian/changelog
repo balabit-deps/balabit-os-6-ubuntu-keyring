@@ -1,3 +1,10 @@
+ubuntu-keyring (2012.05.19.1) xenial; urgency=medium
+
+  * Add 4096R/991BC93C Ubuntu Archive Automatic Signing Key (2018)
+    <ftpmaster@ubuntu.com> to ubuntu-archive-keyring. LP: #1881278
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Fri, 29 May 2020 12:58:19 +0100
+
 ubuntu-keyring (2012.05.19) quantal; urgency=low
 
   * Add 4096R/C0B21F32 Ubuntu Archive Automatic Signing Key (2012)

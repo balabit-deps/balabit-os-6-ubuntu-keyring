@@ -28,6 +28,7 @@ binary-indep: checkroot
 	-rm -rf debian/tmp
 	$(install_dir) debian/tmp/DEBIAN/
 	$(install_script) debian/postinst debian/tmp/DEBIAN/
+	$(install_script) debian/postrm debian/tmp/DEBIAN/
 
 	$(install_dir) debian/tmp/usr/share/keyrings/
 	$(install_file) keyrings/ubuntu-archive-keyring.gpg debian/tmp/usr/share/keyrings/
